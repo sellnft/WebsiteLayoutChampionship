@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.site-header {
+    border: 0.07rem solid;
+    height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: beige;
+}
+
+.site-nav__structure {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-nav__button {
+    width: 10rem;
+    height: 1.5rem;
+    background-color: blue;
+    color:azure
+}
+
+.site-h1 {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.site-article__subtitle {
+    margin-left: 2rem;
+    font-size: large;
+}
+
