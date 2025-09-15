@@ -17,7 +17,7 @@ body {
     align-items: center;
 }
 
-.site-nav__button {
+.site-button {
     width: 10rem;
     height: 1.5rem;
     background-color: blue;
@@ -31,6 +31,26 @@ body {
 
 .site-article__subtitle {
     margin-left: 2rem;
-    font-size: large;
+    font-size: x-large;
+    margin-top: 5rem;
 }
 
+.site-article__img {
+    margin-left: 5rem;
+    border-radius: 5rem;
+}
+
+.hero-article {
+    display: flex;
+    width: 100%;
+}
+
+.article-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-buttons {
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
