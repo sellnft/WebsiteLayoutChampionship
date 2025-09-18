@@ -70,7 +70,8 @@ body {
 }
 .site-table__aboutMe {
     margin-left: 2rem;
-    border: 0.15rem solid;
+    display: flex;
+    flex-direction: column;
 }
 
 .table-tr__border {
