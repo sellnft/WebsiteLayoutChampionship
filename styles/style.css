@@ -21,7 +21,8 @@ body {
     width: 10rem;
     height: 1.5rem;
     background-color: blue;
-    color:azure
+    color:azure;
+    border-radius: 0.5rem;
 }
 
 .site-h1 {
@@ -53,4 +54,25 @@ body {
 .article-buttons {
     margin-left: 15rem;
     margin-top: 1rem;
+}
+
+.site-button:hover {
+    filter: brightness(0.7);
+}
+
+.site-article__h2 {
+    margin-left: 2rem;
+}
+
+.site-article {
+    margin-left: 2rem;
+    font-size: larger;
+}
+.site-table__aboutMe {
+    margin-left: 2rem;
+    border: 0.15rem solid;
+}
+
+.table-tr__border {
+    border: 0.15rem solid;
 }
